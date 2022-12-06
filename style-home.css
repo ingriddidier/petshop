@@ -1,0 +1,172 @@
+
+    body
+{
+    background-color: rgb(254, 248, 248);
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: rgb(250, 188, 3);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #219ebc;
+}
+
+header{
+    background-color: beige;
+    padding: 10px 0;
+}
+.banner{
+    width: 100%;
+}
+.principal{
+    padding: 30px;
+    background: rgb(255, 241, 198);
+    width: 940px;
+    margin: 0 auto;
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-shadow: 2px 2px #fbe3b2;
+}
+h1 {
+    text-align:left;
+    height: 150 px;
+    padding: 20px;
+}
+    p
+    {
+        text-align: left;
+        font-size: 20px;
+    }
+    #missão{
+        font-size: 20px;
+    }
+.items{
+    font-style: italic;
+    
+}
+.beneficios{
+    padding: 20px;
+    
+}
+h2{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+.beneficios {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    background:linear-gradient(30% lightsalmon,beige);
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens {
+    line-height: 1.5;
+}
+
+itens:nth-child(4n) {
+    font-weight: bold;
+}
+itens:before {
+    content: "🐾"
+}
+.imagembeneficios{
+    width: 50%;
+    position:left;
+}
+.imagembeneficios:hover {
+    opacity: 0.3;
+}
+.banho{
+    width: 150px;
+    float:right;
+    margin:0 20px 20px 0;
+}
+
+
+.mapa {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+
+}
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) { 
+    .navbar, .principal, .conteudo-beneficios, .mapa-conteudo {
+        width: auto;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+nav {
+    position:static;
+}
+.lista-beneficios, imagem-beneficios {
+    width: 100%
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+    background: linear-gradient(#FEFEFE, #ffd175);
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
